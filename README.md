@@ -21,7 +21,8 @@ I suspect there might be an issue with the project configuration or possibly a m
 
 ## Impact:
 - Disrupted test execution and development progress.
-- Waiter strategy: in utils folder you can see wait_utils. This is currently a stub. The strategy should be expanded and applied to pages and elements. It is difficult to do without test run.
-- step definition and client_grid actions. The same reason as for waiter.
+- Waiter strategy: in utils folder you can see wait_utils. This is currently a "stub". The strategy should be expanded and applied to pages and elements. It is difficult to do without test run.
+- Step definition and client_grid actions, implementation of Base Page. The same reason as for waiter.
+- WebDriver Manager: just a "stub" for this moment.
 
 ## Note: I've run a small test without using cucumber and capybara. The login and navigation to the client model were successful. Therefore, methods such as credentials_converter, LoginPage and Header function work as expected.
