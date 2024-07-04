@@ -1,0 +1,13 @@
+source 'http://rubygems.org'
+
+gem 'cucumber'
+gem 'rspec'
+gem 'selenium-webdriver'
+gem 'watir'
+gem 'rake'
+gem 'simplecov'
+gem 'simplecov-rcov'
+gem 'page-object'
+gem 'json'
+gem 'capybara'
+gem 'require_all'
