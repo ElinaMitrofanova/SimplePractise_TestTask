@@ -1,0 +1,7 @@
+# Default profile
+default: --publish-quiet --require features
+# Development profile
+development: --tags @dev --format html --out=reports/report.html
+
+# Production profile
+production: --tags @prod --format progress
