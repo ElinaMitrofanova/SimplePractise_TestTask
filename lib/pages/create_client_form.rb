@@ -18,6 +18,7 @@ class CreateClientForm
     self.last_name = last_name
   end
 
+  #We can extend the client model and then add new actions to create a client form.
   def create_client(client_model)
     fill_required_fields(client_model.first_name, client_model.last_name)
     if !client_model.type.nil?

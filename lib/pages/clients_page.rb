@@ -8,6 +8,7 @@ class ClientsPage
   page_section(:client_grid, ClientGrid, xpath: "//div[@id='client-grid']")
 
   def utility_search_client(first_name, last_name)
-    self.utility_search,= "#{first_name} #{last_name}"
+    self.utility_search = "#{first_name} #{last_name}"
+    self.utility_search_element.send_keys(:enter)
   end
 end
